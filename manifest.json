@@ -1,10 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Email Alias",
-  "version": "1.0.0.0",
+  "version": "1.0.0.1",
   "author": "kamataryo",
   "homepage_url": "https://github.com/kamataryo/email-alias",
-  "description": "An extension to attach alias after input an email address.",
+  "description":
+    "A Chrome extension to complete alias for email input form, automatically.",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
