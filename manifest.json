@@ -1,0 +1,17 @@
+{
+  "name": "Email Alias",
+  "description": "Add alias when input emails.",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "manifest_version": 2
+}
